@@ -1,2 +1,2 @@
-# PrimeirosCodesEmC-
-Repository about start with language 
+# Jogo da Velha Via terminal
+
