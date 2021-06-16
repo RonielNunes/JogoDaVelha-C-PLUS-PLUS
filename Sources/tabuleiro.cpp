@@ -16,7 +16,6 @@ Tabuleiro::~Tabuleiro(void){
 
 bool Tabuleiro::marcar(int numero, char simbolo){
     if(simbolo == 'x'){
-        cout << "entrou";
         if(numero == 1){
             this->matriz[0][0] = " x "; 
         }else if(numero == 2){
@@ -57,7 +56,6 @@ bool Tabuleiro::marcar(int numero, char simbolo){
             this->matriz[4][4] = " o "; 
         }
     }
-    system("cls");
     return true;
 }
 
@@ -154,6 +152,3 @@ void Tabuleiro::mostrarTabuleiro(void){
     }
     cout << endl;
 }
-
-
-                
