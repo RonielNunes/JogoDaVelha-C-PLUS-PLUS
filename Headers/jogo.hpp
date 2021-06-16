@@ -2,6 +2,8 @@ class Jogo{
     private:
         int vitoriaJogador;
         int vitoriaComputador;
+        int empate;
+        bool rodadaEmpatada;
         bool jogador;
         bool computador;
         bool rodada;
@@ -25,5 +27,11 @@ class Jogo{
         void setVitoriaComputador(void);
         bool verificaPosicao(int,char);
         bool verificaFimDeJogo(char);
+        bool verificaFimDeJogo(void); //Sobrecargar
         void mensagemFim(void);
+        void computadorAcoes(char,Tabuleiro *);
+        void setEmpate(void);
+        int getEmpate(void);
+        void setRodadaEmpatada(void);
+        bool getRodadaEmpatada(void);
 };

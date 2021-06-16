@@ -6,6 +6,8 @@
 #include <iostream>
 #include <array>
 #include <iomanip>
+#include <cstdlib>
+#include <ctime>
 
 using namespace std;
 
