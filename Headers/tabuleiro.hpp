@@ -4,17 +4,20 @@
 #include <vector>
 #include <string>
 #include <iostream>
+#include <array>
+#include <iomanip>
 
 using namespace std;
 
 class Tabuleiro{
     private:
         int tamanho;
-        vector<vector<char>> * matriz;
+        vector<vector<string>> matriz;
     public:
         Tabuleiro(void);  //Construtor
         ~Tabuleiro(void); //Construtor
-        bool marcar(int , int , char );
+        bool marcar(int , char );
+        void inicializarTabuleiro(void);
         void mostrarTabuleiro(void);
 };
 
